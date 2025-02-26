@@ -2,7 +2,7 @@
 
 This project is an Amazon Lex chatbot named **OnlineShoppingBot** designed to assist users with online shopping. It collects customer details, guides users through product selections, and provides a personalized shopping experience.
 
-## Features
+## 🎯 Features
 - Collects basic customer details (Name, Email, Contact Number, Address).
 - Offers product selections from various categories like Electronics, Clothing, Home Appliances, Beauty products, groceries etc.
 - The bot suggests products based on user preferences.
