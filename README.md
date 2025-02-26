@@ -44,10 +44,10 @@ python app.py
 Then open http://localhost:5000 in your browser.
 ```
 
-## Future Enhancements
+## 🎯 Future Enhancements
 - Voice Shopping Integration – Support for Alexa & Google Assistant
 - Payment Gateway – Secure checkout via Stripe/PayPal
 - Multilingual Support – Expand bot capabilities for different languages
 
-## License
+## 📜 License
 This project is licensed under the MIT License.
