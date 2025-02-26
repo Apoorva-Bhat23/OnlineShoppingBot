@@ -18,7 +18,6 @@ DynamoDB	Storing user data and order details
 Flask	Web integration for chatbot
 Python	Backend scripting & API calls (boto3, requests, json)
 
-
 ## 🚀 Getting Started
 1. Clone the Repository
 ```sh
@@ -41,8 +40,8 @@ aws lex-models put-bot --name OnlineShoppingBot --cli-input-json file://bot_conf
 4. Run Locally
 ```sh
 python app.py
-Then open http://localhost:5000 in your browser.
 ```
+Then open http://localhost:5000 in your browser.
 
 ## 🎯 Future Enhancements
 - Voice Shopping Integration – Support for Alexa & Google Assistant
