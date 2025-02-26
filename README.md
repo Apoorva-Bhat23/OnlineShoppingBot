@@ -33,6 +33,7 @@ pip install -r requirements.txt
 Configure AWS CLI:
 ```sh
 aws configure
+```
 Upload Lambda functions & deploy Lex bot:
 ```sh
 aws lex-models put-bot --name OnlineShoppingBot --cli-input-json file://bot_config.json
