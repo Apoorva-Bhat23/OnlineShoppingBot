@@ -18,10 +18,35 @@ DynamoDB	Storing user data and order details
 Flask	Web integration for chatbot
 Python	Backend scripting & API calls (boto3, requests, json)
 
-## Setup
-1. Clone the repository.
-2. Deploy the bot on Amazon Lex.
-3. Configure the bot according to your needs.
 
-## Usage
-- Interact with the bot via the Amazon Lex Console or integrate it with your application.
+## 🚀 Getting Started
+1. Clone the Repository
+```sh
+git clone https://github.com/Apoorva-Bhat23/OnlineShoppingBot.git
+cd OnlineShoppingBot
+```
+2. Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+3. Deploy to AWS
+Configure AWS CLI:
+```sh
+aws configure
+Upload Lambda functions & deploy Lex bot:
+```sh
+aws lex-models put-bot --name OnlineShoppingBot --cli-input-json file://bot_config.json
+```
+4. Run Locally
+```sh
+python app.py
+Then open http://localhost:5000 in your browser.
+```
+
+## Future Enhancements
+- Voice Shopping Integration – Support for Alexa & Google Assistant
+- Payment Gateway – Secure checkout via Stripe/PayPal
+- Multilingual Support – Expand bot capabilities for different languages
+
+## License
+This project is licensed under the MIT License.
